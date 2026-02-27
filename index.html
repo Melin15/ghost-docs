@@ -584,6 +584,8 @@
     function toggleSidebar() {
         document.getElementById("sidebar").classList.toggle("open");
     }
+    const headerLogo = document.querySelector(".logo img");
+    if (headerLogo) headerLogo.src = "logo.svg";
     setLang("ru");
 </script>
 </body>
